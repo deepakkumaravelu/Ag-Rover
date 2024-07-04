@@ -1,0 +1,367 @@
+@import "mixins.scss";
+#content_0_Image1 {	@include elemTop(20);
+}
+#content_0_Image1 {	@include elemLeft(400);
+}
+#content_0_Image1 {	@include elemAutoWidth(700);
+}
+#content_0_Image1 {	@include elemAutoHeight(500);
+}
+#content_0_Image1 {	z-index: 0;
+}
+#content_0_Image1 {	background-color: rgba(211, 211, 211, 1);
+}
+#content_0_ToggleButton1 {	@include elemTop(80);
+}
+#content_0_ToggleButton1 {	@include elemLeft(60);
+}
+#content_0_ToggleButton1 {	@include elemAutoWidth(120);
+}
+#content_0_ToggleButton1 {	@include elemAutoHeight(40);
+}
+#content_0_ToggleButton1 {	z-index: 1;
+}
+#content_0_ToggleButton1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(0, 192, 0, 1);
+	}
+}
+#content_0_ToggleButton1 {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#content_0_ToggleButton1 {	span {
+		font-size: 20px;
+	}
+}
+#content_0_ToggleButton1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_nooflane {	@include elemTop(200);
+}
+#content_0_nooflane {	@include elemLeft(280);
+}
+#content_0_nooflane {	@include elemAutoWidth(60);
+}
+#content_0_nooflane {	@include elemAutoHeight(35);
+}
+#content_0_nooflane {	z-index: 2;
+}
+#content_0_Button1 {	@include elemTop(440);
+}
+#content_0_Button1 {	@include elemLeft(1180);
+}
+#content_0_Button1 {	@include elemAutoWidth(140);
+}
+#content_0_Button1 {	@include elemAutoHeight(40);
+}
+#content_0_Button1 {	z-index: 3;
+}
+#content_0_Button1 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#content_0_Button1 {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#content_0_Button1 {	span {
+		font-size: 20px;
+	}
+}
+#content_0_Button1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_NumericOutput1 {	@include elemTop(40);
+}
+#content_0_NumericOutput1 {	@include elemLeft(1400);
+}
+#content_0_NumericOutput1 {	@include elemAutoWidth(60);
+}
+#content_0_NumericOutput1 {	@include elemAutoHeight(35);
+}
+#content_0_NumericOutput1 {	z-index: 4;
+}
+#content_0_Label1 {	@include elemTop(40);
+}
+#content_0_Label1 {	@include elemLeft(1160);
+}
+#content_0_Label1 {	@include elemAutoWidth(220);
+}
+#content_0_Label1 {	@include elemAutoHeight(31);
+}
+#content_0_Label1 {	z-index: 5;
+}
+#content_0_Label1 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label1 {	font-size: 25px;
+}
+#content_0_Label2 {	@include elemAutoHeight(30);
+}
+#content_0_Label2 {	@include elemTop(200);
+}
+#content_0_Label2 {	@include elemLeft(40);
+}
+#content_0_Label2 {	@include elemAutoWidth(200);
+}
+#content_0_Label2 {	z-index: 6;
+}
+#content_0_Label2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label2 {	font-size: 25px;
+}
+#content_0_ToggleButton2 {	@include elemTop(80);
+}
+#content_0_ToggleButton2 {	@include elemLeft(220);
+}
+#content_0_ToggleButton2 {	@include elemAutoWidth(120);
+}
+#content_0_ToggleButton2 {	@include elemAutoHeight(40);
+}
+#content_0_ToggleButton2 {	z-index: 7;
+}
+#content_0_ToggleButton2 {	&:not(.disabled):not(.active):not(.checked) {
+		background-color: rgba(255, 0, 0, 1);
+	}
+}
+#content_0_ToggleButton2 {	&:not(.disabled):not(.active):not(.checked) span {
+		color: rgba(255, 255, 255, 1);
+	}
+}
+#content_0_ToggleButton2 {	span {
+		font-size: 20px;
+	}
+}
+#content_0_ToggleButton2 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_pumpstatus {	@include elemTop(340);
+}
+#content_0_pumpstatus {	@include elemLeft(1420);
+}
+#content_0_pumpstatus {	@include elemAutoWidth(30);
+}
+#content_0_pumpstatus {	@include elemAutoHeight(30);
+}
+#content_0_pumpstatus {	z-index: 8;
+}
+#content_0_pumpstatus {	background-color: rgba(50, 205, 50, 1);
+}
+#content_0_pumpstatus {	@include border-radius(50px);
+}
+#content_0_Label3 {	@include elemAutoHeight(30);
+}
+#content_0_Label3 {	@include elemTop(340);
+}
+#content_0_Label3 {	@include elemLeft(1160);
+}
+#content_0_Label3 {	@include elemAutoWidth(200);
+}
+#content_0_Label3 {	z-index: 9;
+}
+#content_0_Label3 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label3 {	font-size: 25px;
+}
+#content_0_Label4 {	@include elemAutoHeight(30);
+}
+#content_0_Label4 {	@include elemTop(220);
+}
+#content_0_Label4 {	@include elemLeft(1160);
+}
+#content_0_Label4 {	@include elemAutoWidth(200);
+}
+#content_0_Label4 {	z-index: 10;
+}
+#content_0_Label4 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label4 {	font-size: 25px;
+}
+#content_0_currentleftlane {	@include elemTop(220);
+}
+#content_0_currentleftlane {	@include elemLeft(1420);
+}
+#content_0_currentleftlane {	@include elemAutoWidth(30);
+}
+#content_0_currentleftlane {	@include elemAutoHeight(30);
+}
+#content_0_currentleftlane {	z-index: 11;
+}
+#content_0_currentleftlane {	background-color: rgba(50, 205, 50, 1);
+}
+#content_0_currentleftlane {	@include border-radius(50px);
+}
+#content_0_Label5 {	@include elemAutoHeight(30);
+}
+#content_0_Label5 {	@include elemTop(280);
+}
+#content_0_Label5 {	@include elemLeft(1160);
+}
+#content_0_Label5 {	@include elemAutoWidth(220);
+}
+#content_0_Label5 {	z-index: 12;
+}
+#content_0_Label5 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label5 {	font-size: 25px;
+}
+#content_0_currentrightlane {	@include elemTop(280);
+}
+#content_0_currentrightlane {	@include elemLeft(1420);
+}
+#content_0_currentrightlane {	@include elemAutoWidth(30);
+}
+#content_0_currentrightlane {	@include elemAutoHeight(30);
+}
+#content_0_currentrightlane {	z-index: 13;
+}
+#content_0_currentrightlane {	background-color: rgba(50, 205, 50, 1);
+}
+#content_0_currentrightlane {	@include border-radius(50px);
+}
+#content_0_nooflane1 {	@include elemTop(260);
+}
+#content_0_nooflane1 {	@include elemLeft(280);
+}
+#content_0_nooflane1 {	@include elemAutoWidth(60);
+}
+#content_0_nooflane1 {	@include elemAutoHeight(35);
+}
+#content_0_nooflane1 {	z-index: 14;
+}
+#content_0_Label6 {	@include elemAutoHeight(30);
+}
+#content_0_Label6 {	@include elemTop(260);
+}
+#content_0_Label6 {	@include elemLeft(40);
+}
+#content_0_Label6 {	@include elemAutoWidth(200);
+}
+#content_0_Label6 {	z-index: 15;
+}
+#content_0_Label6 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label6 {	font-size: 25px;
+}
+#content_0_nooflane2 {	@include elemTop(320);
+}
+#content_0_nooflane2 {	@include elemLeft(280);
+}
+#content_0_nooflane2 {	@include elemAutoWidth(60);
+}
+#content_0_nooflane2 {	@include elemAutoHeight(35);
+}
+#content_0_nooflane2 {	z-index: 16;
+}
+#content_0_Label7 {	@include elemAutoHeight(30);
+}
+#content_0_Label7 {	@include elemTop(320);
+}
+#content_0_Label7 {	@include elemLeft(40);
+}
+#content_0_Label7 {	@include elemAutoWidth(200);
+}
+#content_0_Label7 {	z-index: 17;
+}
+#content_0_Label7 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label7 {	font-size: 25px;
+}
+#content_0_nooflane3 {	@include elemTop(380);
+}
+#content_0_nooflane3 {	@include elemLeft(280);
+}
+#content_0_nooflane3 {	@include elemAutoWidth(60);
+}
+#content_0_nooflane3 {	@include elemAutoHeight(35);
+}
+#content_0_nooflane3 {	z-index: 18;
+}
+#content_0_Label8 {	@include elemTop(380);
+}
+#content_0_Label8 {	@include elemLeft(40);
+}
+#content_0_Label8 {	@include elemAutoWidth(220);
+}
+#content_0_Label8 {	@include elemAutoHeight(31);
+}
+#content_0_Label8 {	z-index: 19;
+}
+#content_0_Label8 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label8 {	font-size: 25px;
+}
+#content_0_Image2 {	@include elemAutoWidth(150);
+}
+#content_0_Image2 {	@include elemAutoHeight(100);
+}
+#content_0_Image2 {	@include elemTop(420);
+}
+#content_0_Image2 {	@include elemLeft(1360);
+}
+#content_0_Image2 {	z-index: 20;
+}
+#content_0_Image2 {	background-color: rgba(255, 255, 255, 0);
+}
+#content_0_GroupBox1 {	@include elemTop(160);
+}
+#content_0_GroupBox1 {	@include elemLeft(1140);
+}
+#content_0_GroupBox1 {	@include elemWidth(360);
+}
+#content_0_GroupBox1 {	@include elemHeight(240);
+}
+#content_0_GroupBox1 {	z-index: 21;
+}
+#content_0_GroupBox1 {	> .header span {
+		font-size: 20px;
+	}
+}
+#content_0_GroupBox1 {	> .header {
+		height: 20px + 20px;
+	}
+}
+#content_0_nooflane4 {	@include elemTop(440);
+}
+#content_0_nooflane4 {	@include elemLeft(280);
+}
+#content_0_nooflane4 {	@include elemAutoWidth(60);
+}
+#content_0_nooflane4 {	@include elemAutoHeight(35);
+}
+#content_0_nooflane4 {	z-index: 22;
+}
+#content_0_Label9 {	@include elemAutoHeight(30);
+}
+#content_0_Label9 {	@include elemTop(440);
+}
+#content_0_Label9 {	@include elemLeft(40);
+}
+#content_0_Label9 {	@include elemAutoWidth(200);
+}
+#content_0_Label9 {	z-index: 23;
+}
+#content_0_Label9 {	span {
+		font-family: Times New Roman;
+	}
+}
+#content_0_Label9 {	font-size: 25px;
+}

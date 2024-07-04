@@ -1,0 +1,9 @@
+VAR_CONFIG
+	::KEY AT %IX."X20cDI6371".DigitalInput01;
+	::Left_Proximity AT %IX."X20cDI6371".DigitalInput03;
+	::Buzzer AT %QX."X20DO8322".DigitalOutput01;
+	::LeftAct AT %QX."X20DO8322".DigitalOutput02;
+	::RightAct AT %QX."X20DO8322".DigitalOutput03;
+	::Proximity_1 AT %IX."X20cDI6371".DigitalInput02;
+	::Right_Proximity AT %IX."X20cDI6371".DigitalInput04;
+END_VAR

@@ -1,0 +1,41 @@
+@import "mixins.scss";
+#contentnavbar_NavigationButton1 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton1 {	@include elemLeft(140);
+}
+#contentnavbar_NavigationButton1 {	@include elemAutoWidth(120);
+}
+#contentnavbar_NavigationButton1 {	@include elemAutoHeight(40);
+}
+#contentnavbar_NavigationButton1 {	z-index: 0;
+}
+#contentnavbar_NavigationButton2 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton2 {	@include elemLeft(380);
+}
+#contentnavbar_NavigationButton2 {	@include elemAutoWidth(120);
+}
+#contentnavbar_NavigationButton2 {	@include elemAutoHeight(40);
+}
+#contentnavbar_NavigationButton2 {	z-index: 1;
+}
+#contentnavbar_NavigationButton3 {	@include elemTop(20);
+}
+#contentnavbar_NavigationButton3 {	@include elemLeft(620);
+}
+#contentnavbar_NavigationButton3 {	@include elemAutoWidth(120);
+}
+#contentnavbar_NavigationButton3 {	@include elemAutoHeight(40);
+}
+#contentnavbar_NavigationButton3 {	z-index: 2;
+}
+#contentnavbar_LogoutButton1 {	@include elemTop(20);
+}
+#contentnavbar_LogoutButton1 {	@include elemLeft(1280);
+}
+#contentnavbar_LogoutButton1 {	@include elemAutoWidth(120);
+}
+#contentnavbar_LogoutButton1 {	@include elemAutoHeight(40);
+}
+#contentnavbar_LogoutButton1 {	z-index: 3;
+}

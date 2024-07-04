@@ -1,0 +1,23 @@
+VAR
+	RightAct : BOOL;
+	Left_Proximity : BOOL;
+	Right_Solenoid : BOOL;
+	KEY : BOOL;
+	Buzzer : BOOL;
+	Right_Proximity : BOOL;
+	Left_Solenoid : BOOL;
+	LeftAct : BOOL;
+	Proximity_1 : BOOL;
+	Counter : INT := 0;
+	Row : INT;
+	LeftWheel_F : MpAxisBasic;
+	LeftWheel_B : MpAxisBasic;
+	RightWheel_F : MpAxisBasic;
+	RightWheel_B : MpAxisBasic;
+	AxisParameters : MpAxisBasicParType;
+	Float_2 : BOOL;
+	Float_1 : BOOL;
+	FloatSensor : INT;
+	State : BOOL := FALSE;
+	Pump : BOOL := TRUE;
+END_VAR

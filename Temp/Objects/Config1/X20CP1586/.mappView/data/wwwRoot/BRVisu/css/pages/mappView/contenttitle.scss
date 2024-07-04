@@ -1,0 +1,49 @@
+@import "mixins.scss";
+#contenttitle_Image1 {	@include elemTop(10);
+}
+#contenttitle_Image1 {	@include elemLeft(1280);
+}
+#contenttitle_Image1 {	@include elemAutoWidth(60);
+}
+#contenttitle_Image1 {	@include elemAutoHeight(60);
+}
+#contenttitle_Image1 {	z-index: 0;
+}
+#contenttitle_Image1 {	background-color: rgba(105, 105, 105, 1);
+}
+#contenttitle_Image1 {	border-style: none;
+}
+#contenttitle_Image1 {	border-width: 0px;
+}
+#contenttitle_Image1 {	border-color: rgba(1, 1, 1, 1);
+}
+#contenttitle_Image1 {	@include border-radius(50px);
+}
+#contenttitle_Image2 {	@include elemTop(20);
+}
+#contenttitle_Image2 {	@include elemLeft(160);
+}
+#contenttitle_Image2 {	@include elemAutoWidth(220);
+}
+#contenttitle_Image2 {	@include elemAutoHeight(40);
+}
+#contenttitle_Image2 {	z-index: 1;
+}
+#contenttitle_Image2 {	background-color: rgba(144, 238, 144, 1);
+}
+#contenttitle_Image2 {	border-width: 0px;
+}
+#contenttitle_DateTimeOutput1 {	@include elemAutoHeight(30);
+}
+#contenttitle_DateTimeOutput1 {	@include elemTop(20);
+}
+#contenttitle_DateTimeOutput1 {	@include elemLeft(1000);
+}
+#contenttitle_DateTimeOutput1 {	@include elemAutoWidth(220);
+}
+#contenttitle_DateTimeOutput1 {	z-index: 2;
+}
+#contenttitle_DateTimeOutput1 {	font-family: Arial Unicode;
+}
+#contenttitle_DateTimeOutput1 {	font-size: 20px;
+}
