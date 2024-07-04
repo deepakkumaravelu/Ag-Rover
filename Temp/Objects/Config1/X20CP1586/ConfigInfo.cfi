@@ -9,11 +9,11 @@
       Source="servo"
       Language="IEC">
       <InternalFile
-        Path="C:\projects\Servo\Temp\Objects\Config1\X20CP1586\servo\Main.st.var" />
+        Path="C:\BRproject\Ag-Rover\Temp\Objects\Config1\X20CP1586\servo\Main.st.var" />
       <File
-        Path="C:\projects\Servo\Logical\servo\Types.typ" />
+        Path="C:\BRproject\Ag-Rover\Logical\servo\Types.typ" />
       <File
-        Path="C:\projects\Servo\Logical\servo\Variables.var" />
+        Path="C:\BRproject\Ag-Rover\Logical\servo\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
