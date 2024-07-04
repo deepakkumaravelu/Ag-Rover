@@ -1,21 +1,21 @@
-Thu Jul  4 10:20:21 2024
+Thu Jul  4 11:09:09 2024
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Thu Jul  4 10:20:21 2024
+Thu Jul  4 11:09:09 2024
 No ARsim registration found!
 
-Thu Jul  4 10:20:21 2024
-InstanceName: 0000000a054eda9a
+Thu Jul  4 11:09:09 2024
+InstanceName: 00000010d62315cb
 
-Thu Jul  4 10:20:21 2024
+Thu Jul  4 11:09:09 2024
 WorkingDirectory: C:\projects\Servo\Temp\Simulation\Config1\X20CP1586\
 
-Thu Jul  4 10:20:22 2024
+Thu Jul  4 11:09:09 2024
 COMMAND_COLDSTART
 
-Thu Jul  4 10:20:24 2024
+Thu Jul  4 11:09:11 2024
 Version: B4.93
 
-Thu Jul  4 10:20:26 2024
+Thu Jul  4 12:48:11 2024
 COMMAND_TERMINATE
 

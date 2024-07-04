@@ -18,7 +18,7 @@ PROGRAM _INIT
 END_PROGRAM
 
 PROGRAM _CYCLIC	
-	//Front LeftWheel Ingnition	
+	//Left LeftWheel Ingnition	
 	IF LeftWheel_F.Info.ReadyToPowerOn = TRUE THEN
 		LeftWheel_F.Power := TRUE;
 	END_IF
