@@ -5,10 +5,10 @@
     <ConnectionParameters>/RT=1000 /DAIP=127.0.0.1 /REPO=11160 /ANSL=1 /AM=* /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\projects\Servo\Servo.apj</ApjFullFileName>
+    <ApjFullFileName>C:\BRproject\Ag-Rover\Servo.apj</ApjFullFileName>
     <ProjectName>Servo</ProjectName>
     <ActiveConfigurationName>Config1</ActiveConfigurationName>
-    <LicenseDataFolder>C:\projects\Servo\Temp\Objects\Config1\X20CP1586</LicenseDataFolder>
+    <LicenseDataFolder>C:\BRproject\Ag-Rover\Temp\Objects\Config1\X20CP1586</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

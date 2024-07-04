@@ -44,7 +44,6 @@
   <Operation Restart="warm"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
-  <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="MpAxis.br" Memory="UserROM"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
@@ -54,6 +53,7 @@
   <Operation Download="ashwac.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="Config_2.br" Memory="UserROM"/>
   <Operation Download="Config_3.br" Memory="UserROM"/>
   <Operation Download="Config_4.br" Memory="UserROM"/>
