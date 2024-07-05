@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20240704112840_
-#define _LIBRARIES_20240704112840_
+#ifndef _LIBRARIES_20240705120016_
+#define _LIBRARIES_20240705120016_
 
 __asm__(".section \".plc\"");
 
@@ -40,6 +40,9 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/McAcpAx/McAcpAxCfg.typ\\\" scope
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmX.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmXError.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/MpAlarmX/MpAlarmX.fun\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -633,9 +636,29 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/standard/standard.var\\\" scope 
 	__asm__(".ascii \"plcexport \\\"REPLACE\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"FIND\\\" FUN\\n\"");
 #endif
+#ifdef _MPALARMX_EXPORT
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCore\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXListUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXHistoryUI\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckState\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckStateID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXCheckReaction\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXSet\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledge\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledgeID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXReset\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXResetID\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXHistory\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXClearHistory\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXConfigAlarm\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXConfigMapping\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXQuery\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAcknowledgeAll\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"MpAlarmXAlarmControl\\\" FUB\\n\"");
+#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20240704112840_ */
+#endif /* _LIBRARIES_20240705120016_ */
 

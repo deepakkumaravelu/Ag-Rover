@@ -4,10 +4,11 @@
 		<Class Name="AddonsData">
 			<Folder Name="IAT_Data" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="server" ProjectDependent="1" IgnoreDifference="0">
+					<File Name="-1292334870.binding" Size="279" HashValue="E2E97A1CA161035EAE829AC10C0F181E" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="-1746196365.binding" Size="279" HashValue="E2E97A1CA161035EAE829AC10C0F181E" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="Config.mappviewcfg" Size="1198" HashValue="7F96E8897779840A09E5FFB60D8DB5D3" ProjectDependent="1" IgnoreDifference="0" />
 					<File Name="__SystemVariables.sessionVar" Size="3679" HashValue="47F4015152DC77A4E81EB725C733FBD6" ProjectDependent="1" IgnoreDifference="0" />
-					<File Name="vis_0.vis" Size="941" HashValue="287F8A55577015B9490CCD0C40B2561E" ProjectDependent="1" IgnoreDifference="0" />
+					<File Name="vis_0.vis" Size="982" HashValue="FE8FEF585D68EDDFCA053CE864CDF474" ProjectDependent="1" IgnoreDifference="0" />
 				</Folder>
 				<Folder Name="wwwRoot" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="BRVisu" ProjectDependent="1" IgnoreDifference="0">
@@ -1685,7 +1686,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1" IgnoreDifference="0" IsGroup="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IgnoreDifference="0">
 					<Folder Name="Generated" ProjectDependent="1" IgnoreDifference="0">
-						<File Name="OpcUaMap.uar.gz" Size="434" HashValue="47E7953D3A88CD014466F6C4FB9D7C49" ProjectDependent="1" IgnoreDifference="0" />
+						<File Name="OpcUaMap.uar.gz" Size="452" HashValue="3B0D54D06926979E12E5AACED5DDB34B" ProjectDependent="1" IgnoreDifference="0" />
 					</Folder>
 					<Folder Name="Vendor" ProjectDependent="1" IgnoreDifference="0">
 						<File Name="plc.aprol.uanodeset" Size="6712" HashValue="08ADF5B15D3AF0566E164F0E4D4FB418" ProjectDependent="1" IgnoreDifference="0" />
@@ -1763,11 +1764,11 @@
 			<File Name="arsimproxy.dll" Size="221696" HashValue="11E3F85AC111386D5CBEF8AC4E6B29E1" ProjectDependent="1" IgnoreDifference="0" />
 		</Class>
 		<Memory Name="SYSROM">
-			<Module Name="::$$sysconf" Type="129" Size="70596" Modified="2024-07-02 10:08:54" Version="4.93" ProjectDependent="1" Reboot="1" />
-			<Module Name="::TCData" Type="209" Size="5493744" Modified="2024-07-04 11:23:47" Version="1.00" ProjectDependent="1" />
-			<Module Name="::arconfig" Type="132" Size="6508" Modified="2024-07-02 10:08:53" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::asfw" Type="67" Size="275148" Modified="2024-07-02 10:08:55" Version="1.00" ProjectDependent="1" Reboot="1" />
-			<Module Name="::ashwd" Type="67" Size="3544" Modified="2024-07-02 10:08:56" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::$$sysconf" Type="129" Size="70596" Modified="2024-07-04 18:15:57" Version="4.93" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="5641332" Modified="2024-07-05 00:02:05" Version="1.00" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="6508" Modified="2024-07-04 18:15:52" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="275148" Modified="2024-07-04 18:15:58" Version="1.00" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="3544" Modified="2024-07-04 18:15:59" Version="1.00" ProjectDependent="1" Reboot="1" />
 		</Memory>
 		<Memory Name="USERROM">
 			<Module Name="::ArCoal" Type="18" Size="62536" Modified="2023-03-30 15:04:20" Version="5.23" ProjectDependent="1" />
@@ -1776,11 +1777,14 @@
 			<Module Name="::ArSvcReg" Type="18" Size="78216" Modified="2016-12-09 07:57:34" Version="4.93" ProjectDependent="1" />
 			<Module Name="::AsEPL" Type="18" Size="15056" Modified="2022-06-22 07:50:34" Version="4.93" ProjectDependent="1" />
 			<Module Name="::AsIecCon" Type="18" Size="17432" Modified="2022-06-22 08:03:38" Version="4.93" ProjectDependent="1" />
-			<Module Name="::Config_1" Type="136" Size="2308" Modified="2024-07-01 07:55:38" Version="5.231" ProjectDependent="1" />
-			<Module Name="::Config_2" Type="136" Size="2312" Modified="2024-06-28 10:39:00" Version="5.231" ProjectDependent="1" />
-			<Module Name="::Config_3" Type="136" Size="2312" Modified="2024-06-28 10:39:00" Version="5.231" ProjectDependent="1" />
-			<Module Name="::Config_4" Type="136" Size="2312" Modified="2024-06-28 10:39:00" Version="5.231" ProjectDependent="1" />
-			<Module Name="::FWRules" Type="136" Size="456" Modified="2024-06-22 18:27:41" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Config" Type="136" Size="6600" Modified="2024-07-05 12:00:32" Version="5.231" ProjectDependent="1" />
+			<Module Name="::Config_1" Type="136" Size="23256" Modified="2024-07-05 00:01:58" Version="5.231" ProjectDependent="1" />
+			<Module Name="::Config_2" Type="136" Size="2312" Modified="2024-07-05 10:43:13" Version="5.231" ProjectDependent="1" />
+			<Module Name="::Config_3" Type="136" Size="2312" Modified="2024-07-05 10:43:13" Version="5.231" ProjectDependent="1" />
+			<Module Name="::Config_4" Type="136" Size="2312" Modified="2024-07-05 10:43:13" Version="5.231" ProjectDependent="1" />
+			<Module Name="::Config_5" Type="136" Size="1820" Modified="2024-07-05 00:01:58" Version="5.231" ProjectDependent="1" />
+			<Module Name="::DataObj" Type="18" Size="13788" Modified="2022-06-22 07:44:43" Version="4.93" ProjectDependent="1" />
+			<Module Name="::FWRules" Type="136" Size="456" Modified="2024-07-04 18:15:58" Version="1.00" ProjectDependent="1" />
 			<Module Name="::FileIO" Type="18" Size="39196" Modified="2022-06-22 07:46:56" Version="4.93" ProjectDependent="1" />
 			<Module Name="::McAcpAx" Type="18" Size="8118296" Modified="2023-06-29 16:03:32" Version="5.231" ProjectDependent="1" Reboot="1" />
 			<Module Name="::McAcpDrv" Type="18" Size="306044" Modified="2023-06-29 16:35:37" Version="5.231" ProjectDependent="1" Reboot="1" />
@@ -1789,17 +1793,18 @@
 			<Module Name="::McAxis" Type="18" Size="366760" Modified="2023-06-29 16:04:09" Version="5.231" ProjectDependent="1" />
 			<Module Name="::McBase" Type="18" Size="2370208" Modified="2023-06-29 15:59:15" Version="5.231" ProjectDependent="1" Reboot="1" />
 			<Module Name="::McDriveLog" Type="70" Size="288052" Modified="2023-06-29 15:18:10" Version="5.231" ProjectDependent="1" Reboot="1" />
+			<Module Name="::MpAlarmX" Type="18" Size="429404" Modified="2023-07-13 11:19:17" Version="5.231" ProjectDependent="1" />
 			<Module Name="::MpAxis" Type="18" Size="426076" Modified="2023-06-29 16:34:26" Version="5.231" ProjectDependent="1" />
 			<Module Name="::MpBase" Type="18" Size="601020" Modified="2023-03-24 08:55:16" Version="5.23" ProjectDependent="1" />
-			<Module Name="::Role" Type="136" Size="760" Modified="2024-06-22 18:27:41" Version="1.00" ProjectDependent="1" />
-			<Module Name="::User" Type="136" Size="648" Modified="2024-06-22 18:27:41" Version="1.00" ProjectDependent="1" />
-			<Module Name="::ashwac" Type="136" Size="23940" Modified="2024-06-28 10:39:00" Version="1.00" ProjectDependent="1" />
+			<Module Name="::Role" Type="136" Size="760" Modified="2024-07-04 18:15:57" Version="1.00" ProjectDependent="1" />
+			<Module Name="::User" Type="136" Size="648" Modified="2024-07-04 18:15:58" Version="1.00" ProjectDependent="1" />
+			<Module Name="::ashwac" Type="136" Size="23940" Modified="2024-07-04 18:15:57" Version="1.00" ProjectDependent="1" />
 			<Module Name="::astime" Type="18" Size="24304" Modified="2022-06-22 07:43:27" Version="4.93" ProjectDependent="1" />
-			<Module Name="::iomap" Type="50" Size="17152" Modified="2024-07-03 15:28:49" Version="1.00" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="17152" Modified="2024-07-04 18:15:55" Version="1.00" ProjectDependent="1" />
 			<Module Name="::mvLoader" Type="18" Size="5336" Modified="2023-04-25 11:07:11" Version="5.23" ProjectDependent="1" />
 			<Module Name="::powerlnk" Type="18" Size="44192" Modified="2022-06-22 07:47:13" Version="4.93" ProjectDependent="1" />
 			<Module Name="::runtime" Type="18" Size="29340" Modified="2022-06-22 07:47:09" Version="4.93" ProjectDependent="1" />
-			<Module Name="::servo" Type="17" Size="16136" Modified="2024-07-04 11:23:09" Version="1.00" ProjectDependent="1" />
+			<Module Name="::servo" Type="17" Size="18060" Modified="2024-07-05 12:00:26" Version="1.00" ProjectDependent="1" />
 			<Module Name="::standard" Type="18" Size="11576" Modified="2022-06-22 07:47:39" Version="4.93" ProjectDependent="1" />
 			<Module Name="::sys_lib" Type="18" Size="20472" Modified="2022-06-22 07:48:00" Version="4.93" ProjectDependent="1" />
 			<Module Name="::udbdef" Type="210" Size="70264" Modified="2014-04-10 10:00:00" Version="0.01" ProjectDependent="1" />

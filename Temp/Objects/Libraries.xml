@@ -9,7 +9,7 @@
     Version="" />
   <Library
     Name="astime"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />
@@ -27,6 +27,12 @@
     Version="5.23.1" />
   <Library
     Name="McBase"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="5.23.1" />
+  <Library
+    Name="MpAlarmX"
     IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
@@ -51,7 +57,7 @@
     Version="" />
   <Library
     Name="runtime"
-    IsDeployed="false"
+    IsDeployed="true"
     IsStatic="false"
     UseAsStatic="false"
     Version="" />

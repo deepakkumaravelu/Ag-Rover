@@ -1,4 +1,5 @@
 C:\projects\Servo\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\McElements.var
+C:\projects\Servo\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var
 C:\projects\Servo\Logical\Global.typ
 C:\projects\Servo\Logical\Global.var
 C:\projects\Servo\Logical\Libraries\operator\operator.fun
@@ -34,3 +35,6 @@ C:\projects\Servo\Logical\Libraries\McAcpAx\McAcpAxCfg.typ
 C:\projects\Servo\Logical\Libraries\standard\standard.fun
 C:\projects\Servo\Logical\Libraries\standard\standard.typ
 C:\projects\Servo\Logical\Libraries\standard\standard.var
+C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmX.typ
+C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmXError.typ
+C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmX.fun

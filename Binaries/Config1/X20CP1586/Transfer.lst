@@ -5,9 +5,11 @@
   <Hardware Target="SG4"/>
   <Operation Delete="servo.br"/>
   <Operation Delete="mvLoader.br"/>
+  <Operation Delete="MpAlarmX.br"/>
   <Operation Delete="MpAxis.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="arssl.br"/>
+  <Operation Delete="dataobj.br"/>
   <Operation Delete="McAcpAx.br"/>
   <Operation Delete="McAxis.br"/>
   <Operation Delete="McAcpDrv.br"/>
@@ -42,10 +44,11 @@
   <Operation Download="McAcpAx.br" Memory="UserROM"/>
   <Operation Download="McAcpSys.br" Memory="UserROM"/>
   <Operation Restart="warm"/>
+  <Operation Download="dataobj.br" Memory="UserROM"/>
   <Operation Download="arssl.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
-  <Operation Download="standard.br" Memory="UserROM"/>
   <Operation Download="MpAxis.br" Memory="UserROM"/>
+  <Operation Download="MpAlarmX.br" Memory="UserROM"/>
   <Operation Download="FWRules.br" Memory="UserROM"/>
   <Operation Download="TCData.br" Memory="SystemROM"/>
   <Operation Download="udbdef.br" Memory="UserROM"/>
@@ -54,9 +57,12 @@
   <Operation Download="ashwac.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="Config.br" Memory="UserROM"/>
   <Operation Download="Config_2.br" Memory="UserROM"/>
   <Operation Download="Config_3.br" Memory="UserROM"/>
   <Operation Download="Config_4.br" Memory="UserROM"/>
+  <Operation Download="Config_5.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
   <Operation Download="servo.br" Memory="UserROM"/>
 </Transfer>

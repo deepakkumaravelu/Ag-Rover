@@ -5,12 +5,18 @@
     Path="C:\projects\Servo\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133645457132851912" />
+    LastWriteTime="133646314787605778" />
   <Object
     Path="C:\projects\Servo\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\McElements.var"
     LogicalPath="McElements.var"
     Type="File"
-    LastWriteTime="133644916452783075"
+    LastWriteTime="133645559257720838"
+    Private="false" />
+  <Object
+    Path="C:\projects\Servo\Temp\Includes\AS_TempDecl\Config1\GlobalComponents\MpComponents.var"
+    LogicalPath="MpComponents.var"
+    Type="File"
+    LastWriteTime="133645911471711458"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Logical\Global.typ"
@@ -22,13 +28,13 @@
     Path="C:\projects\Servo\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133644746466266217"
+    LastWriteTime="133646320048923999"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133644921487884051" />
+    LastWriteTime="133645911413678070" />
   <Object
     Path="C:\projects\Servo\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -284,6 +290,29 @@
     LastWriteTime="133644921487738375"
     Private="false" />
   <Object
+    Path="C:\projects\Servo\Logical\Libraries\MpAlarmX\Binary.lby"
+    LogicalPath="Libraries.MpAlarmX"
+    Type="Library"
+    LastWriteTime="133645911413345904" />
+  <Object
+    Path="C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmX.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.typ"
+    Type="File"
+    LastWriteTime="133645911413234594"
+    Private="false" />
+  <Object
+    Path="C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmXError.typ"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmXError.typ"
+    Type="File"
+    LastWriteTime="133645911413285617"
+    Private="false" />
+  <Object
+    Path="C:\projects\Servo\Logical\Libraries\MpAlarmX\MpAlarmX.fun"
+    LogicalPath="Libraries.MpAlarmX.MpAlarmX.fun"
+    Type="File"
+    LastWriteTime="133645911413330864"
+    Private="false" />
+  <Object
     Path="C:\projects\Servo\Logical\servo\IEC.prg"
     LogicalPath="servo"
     Type="Program"
@@ -292,7 +321,7 @@
     Path="C:\projects\Servo\Logical\servo\Main.st"
     LogicalPath="servo.Main.st"
     Type="File"
-    LastWriteTime="133645430219200801"
+    LastWriteTime="133646330095987917"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Logical\servo\Types.typ"
@@ -304,7 +333,7 @@
     Path="C:\projects\Servo\Logical\servo\Variables.var"
     LogicalPath="servo.Variables.var"
     Type="File"
-    LastWriteTime="133644932138825444"
+    LastWriteTime="133645888771776912"
     Private="true" />
   <Object
     Path="C:\projects\Servo\Logical\mappView\Package.pkg"
@@ -1280,7 +1309,7 @@
     Path="C:\projects\Servo\Logical\mappView\Visualization\Pages\MainPage\MainArea.content"
     LogicalPath="mappView.Visualization.Pages.MainPage.MainArea.content"
     Type="File"
-    LastWriteTime="133645457132059052"
+    LastWriteTime="133645495921359878"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Logical\mappView\Visualization\Variables\Package.pkg"
@@ -1337,24 +1366,24 @@
     Path="C:\projects\Servo\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="133644968168797375"
+    LastWriteTime="133645709014109206"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\Hardware.hwl"
     LogicalPath="Config1.Hardware.hwl"
     Type="File"
-    LastWriteTime="133645430216925215"
+    LastWriteTime="133645780712200898"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\Cpu.pkg"
     LogicalPath="Config1.X20CP1586"
     Type="Cpu"
-    LastWriteTime="133644993047409946" />
+    LastWriteTime="133646331225550977" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\Cpu.sw"
     LogicalPath="Config1.X20CP1586.Cpu.sw"
     Type="File"
-    LastWriteTime="133644921493363313"
+    LastWriteTime="133646314797866989"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\Cpu.per"
@@ -1388,7 +1417,7 @@
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.X20CP1586.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133645463066516940"
+    LastWriteTime="133645471910865831"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\Connectivity\OpcUaFx\Package.pkg"
@@ -1497,31 +1526,43 @@
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappMotion\Config_1.axis"
     LogicalPath="Config1.X20CP1586.mappMotion.Config_1.axis"
     Type="File"
-    LastWriteTime="133642364460000000"
+    LastWriteTime="133645913866138030"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappMotion\Config_2.axis"
     LogicalPath="Config1.X20CP1586.mappMotion.Config_2.axis"
     Type="File"
-    LastWriteTime="133639804400000000"
+    LastWriteTime="133646299331009854"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappMotion\Config_3.axis"
     LogicalPath="Config1.X20CP1586.mappMotion.Config_3.axis"
     Type="File"
-    LastWriteTime="133639804560000000"
+    LastWriteTime="133646299487859312"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappMotion\Config_4.axis"
     LogicalPath="Config1.X20CP1586.mappMotion.Config_4.axis"
     Type="File"
-    LastWriteTime="133639804800000000"
+    LastWriteTime="133646299618258434"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappServices\Package.pkg"
     LogicalPath="Config1.X20CP1586.mappServices"
     Type="Package"
-    LastWriteTime="133635254900000000" />
+    LastWriteTime="133645911470023070" />
+  <Object
+    Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappServices\Config.mpalarmxcore"
+    LogicalPath="Config1.X20CP1586.mappServices.Config.mpalarmxcore"
+    Type="File"
+    LastWriteTime="133646345991077782"
+    Private="false" />
+  <Object
+    Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappServices\Config_5.mpalarmxhistory"
+    LogicalPath="Config1.X20CP1586.mappServices.Config_5.mpalarmxhistory"
+    Type="File"
+    LastWriteTime="133645914002006825"
+    Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappSafety\Package.pkg"
     LogicalPath="Config1.X20CP1586.mappSafety"
@@ -1541,7 +1582,7 @@
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappView\Package.pkg"
     LogicalPath="Config1.X20CP1586.mappView"
     Type="Package"
-    LastWriteTime="133645463022359742" />
+    LastWriteTime="133645472589082933" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappView\Config.mappviewcfg"
     LogicalPath="Config1.X20CP1586.mappView.Config.mappviewcfg"
@@ -1558,7 +1599,13 @@
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappView\Visualizat.vis"
     LogicalPath="Config1.X20CP1586.mappView.Visualizat.vis"
     Type="File"
-    LastWriteTime="133645463022339760"
+    LastWriteTime="133645472592573033"
+    Private="false" />
+  <Object
+    Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappView\content_0.binding"
+    LogicalPath="Config1.X20CP1586.mappView.content_0.binding"
+    Type="File"
+    LastWriteTime="133645472589073000"
     Private="false" />
   <Object
     Path="C:\projects\Servo\Physical\Config1\X20CP1586\mappVision\Package.pkg"
@@ -1579,6 +1626,6 @@
     Path="C:\projects\Servo\Physical\Config1\Hardware.jpg"
     LogicalPath="Config1.Hardware.jpg"
     Type="File"
-    LastWriteTime="133645430217634529"
+    LastWriteTime="133645780712849477"
     Private="false" />
 </Objects>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gAlarmXCore" Type="mpalarmxcore">
+    <Group ID="mapp.AlarmX.Core.Configuration">
+      <Group ID="[0]">
+        <Property ID="Name" Value="Full" />
+        <Property ID="Message" Value="Herbicide solution Full" />
+        <Property ID="Code" Value="101" />
+        <Property ID="Severity" Value="3001" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[1]">
+        <Property ID="Name" Value="Low" />
+        <Property ID="Message" Value="Herbicide solution in Half" />
+        <Property ID="Code" Value="102" />
+        <Property ID="Severity" Value="3002" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+      <Group ID="[2]">
+        <Property ID="Name" Value="Very Low" />
+        <Property ID="Message" Value="Herbicide solution is low" />
+        <Property ID="Code" Value="103" />
+        <Property ID="Severity" Value="3003" />
+        <Selector ID="Behavior" Value="PersistentAlarm" />
+      </Group>
+    </Group>
+  </Element>
+</Configuration>
