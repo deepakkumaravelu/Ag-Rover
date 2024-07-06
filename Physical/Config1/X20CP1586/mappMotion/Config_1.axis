@@ -34,6 +34,6 @@
         <Property ID="Deceleration" Value="50.0" />
       </Selector>
     </Selector>
-    <Selector ID="Alarms" Value="MpAlarmX" />
+    <Selector ID="Alarms" Value="None" />
   </Element>
 </Configuration>
