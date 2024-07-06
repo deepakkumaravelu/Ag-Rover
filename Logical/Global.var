@@ -19,6 +19,5 @@ VAR
 	Float_1 : BOOL;
 	FloatSensor : INT;
 	State : BOOL := FALSE;
-	MpAlarmXCore_0 : MpAlarmXCore;
 	Pump : BOOL := TRUE;
 END_VAR
